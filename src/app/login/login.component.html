@@ -1,0 +1,7 @@
+<form id="msform">
+    <h2 class="fs-title">Login</h2>
+    <input type="email" name="email" placeholder="Email" [(ngModel)]="user.email"/>
+    <input type="password" name="pass" placeholder="Password" [(ngModel)]="user.password"/>
+    <input type="submit" name="submit" class="submit action-button" value="sign in" (click)="login()"/>
+    <div>Don't have an account?<a href="register"> Create here.</a></div>
+</form>

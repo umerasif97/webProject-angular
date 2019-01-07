@@ -1,0 +1,52 @@
+/*form styles*/
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+
+#msform input{
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 130px;
+	background: #bd2130;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 220px;
+	cursor: pointer;
+	padding: 10px 5px;
+    margin: 10px 20px;
+    text-transform: uppercase;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 30px;
+	text-transform: uppercase;
+  color: #2C3E50;
+  margin-top: -40px;
+	margin-bottom: 10px;
+}
+
+input:disabled{
+	cursor: no-drop;
+}
+
+button:disabled{
+	opacity: 0.8;
+	cursor: no-drop
+}

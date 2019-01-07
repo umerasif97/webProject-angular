@@ -1,0 +1,10 @@
+<form id="msform">
+    <h2 class="fs-title">Register</h2>
+    <input type="text" name="name" placeholder="Full Name" [(ngModel)]="user.name"/>
+    <input type="email" name="email" placeholder="Email" [(ngModel)]="user.email"/>
+    <input type="password" name="password" placeholder="Password" [(ngModel)]="user.password"/>
+    <input type="text" name="address" placeholder="Address" [(ngModel)]="user.address"/>
+    <input type="tel" name="phoneNumber" placeholder="Phone Number" [(ngModel)]="user.phoneNumber"/>
+    <input type="submit" name="submit" class="submit action-button" value="create your account" (click)="signup()" />
+    <div>Already have an account?<a href=""> Login here.</a></div>
+</form>
