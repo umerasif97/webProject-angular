@@ -16,9 +16,9 @@ const routes: Routes = [
     { path: '', component: LoginComponent},
     { path: 'addmenu', component: AddmenuComponent},
     { path: 'addrestauarant', component: AddrestauarantComponent},
-    { path: 'restauarants', component: RestauarantlistComponent},
+    { path: 'abc', component: RestauarantlistComponent},
     { path: 'menu/:id', component: MenuComponent},
-    { path: 'cart', component: CartComponent},
+    { path: 'cart', component: RestauarantlistComponent},
     { path: 'orders', component: OrderComponent}
 ];
 
